@@ -61,38 +61,63 @@
     <hr class="my-5" style="color:#6a1b9a;">
     <!-- Section 2: Faculty Members -->
 
-    <section class="text-center">
-      <h2 class="mb-5 font-weight-bold" style="color:#6a1b9a;">Meet Our Faculty</h2>
+<section class="text-center">
+      <h2 class="mb-3 font-weight-bold" style="color:#6a1b9a;">Meet Our Faculty</h2>
       <div class="row d-flex justify-content-center mb-4">
           <div class="col-md-8">
-            <p class="grey-text">Below you will find members of our faculty. They're here for you and your students whenever and for whatever you need them for.
-            They are competent professionals who are enthusiastic about educating future generations.</p>
+            <p class="grey-text">
+                A diverse, respected faculty is a cornerstone of the learning experience.
+                Our faculty features some of the skilled educators and practitioners in academia in various fields.
+                They excel at integrating their real-life lessons and experience into their teaching and academic leadership.
+                </p>
           </div>
           <div class="row d-flex justify-content-center mb-3">
-          {% for teacher in teachers %}
+
           <div class="card mb-3 mr-5 ml-3" style="max-width: 500px;">
             <div class="row no-gutters">
-                      <div class="col-md-4">
-                        <img src="media\Images\CircleImage.png" class="card-img" alt="No image found">
-                      </div>
-                      <div class="col-md-8">
+                <div class="col-md-4">
+                    <img src="media\Images\JohnDoe.jpg" class="card-img" alt="No image found">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title" style="color:#6a1b9a;">John Doe</h5>
+                        <p class="card-text">
+                            I am an experienced Mathematics teacher.
+                            I have extensive experience and knowledge in this subject with expertise in Linear Algebra and Differential Equations.
+                            I would love to share my enthusiasm with the learners through this platform.
+                        </p>
+                        <p class="card-text"><small class="text-muted"></small></p>
+                    </div>
+                </div>
+            </div>
+          </div>
+            <div class="card mb-3 mr-5 ml-3" style="max-width: 500px;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="media\Images\JaneDoe.jpg" class="card-img" alt="No image found">
+                    </div>
+                    <div class="col-md-8">
                         <div class="card-body">
-                          <h5 class="card-title" style="color:#6a1b9a;">{{teacher.user.username}}</h5>
-                          <p class="card-text">{{teacher.bio|truncatechars:75}}</p>
-                          <p class="card-text"><small class="text-muted"></small></p>
+                            <h5 class="card-title" style="color:#6a1b9a;">Jane Doe</h5>
+                            <p class="card-text">
+                                I work as an English teacher. I love teaching because I can help others improve their skills.
+                                It gives me joy and excitement meeting new students.
+                                In my class, I work with wonderful enthusiasm and positivity. I’m interested in many different topics, and I’m happy to focus on my students’ goals.
+                            </p>
+                            <p class="card-text"><small class="text-muted"></small></p>
                         </div>
-                      </div>
+                    </div>
+                </div>
             </div>
-            </div>
-          {% endfor %}
           </div>
       </div>
     </section>
 
-    <hr class="my-5" style="color:#6a1b9a;">
+    <hr class="my-5" style="color:#ff5722;">
   </div>
     </section>
 </main>
+
 
 
 {%endblock%}
