@@ -31,6 +31,5 @@ Below is what the school learning management system looks like before any change
 After changes:
 ![chrome_z6vBwBR0Vx](https://user-images.githubusercontent.com/54449540/153532071-d5a52739-72ce-451c-bf6c-ef24472388fb.png)
 ![chrome_Ts0nCmLMTT](https://user-images.githubusercontent.com/54449540/153532506-afd83851-6002-4763-b024-cebc3aea0d04.png)
-![chrome_BjaeGomYZd](https://user-images.githubusercontent.com/54449540/153532537-fdae4f47-cbb6-456a-9b00-f63de8551b0c.png)
-![chrome_UPu9hYetQQ](https://user-images.githubusercontent.com/54449540/153533636-9ed7fe19-f109-4250-bc54-a85bf2f58392.png)
+![1cCkoi9HGU](https://user-images.githubusercontent.com/54449540/153550919-58e1f202-1b6e-4adb-8a6c-223e57246533.png)![chrome_UPu9hYetQQ](https://user-images.githubusercontent.com/54449540/153533636-9ed7fe19-f109-4250-bc54-a85bf2f58392.png)
 
